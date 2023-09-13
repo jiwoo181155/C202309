@@ -1,0 +1,10 @@
+#include <stdio.h> //stdio.h ÄÄÆÄÀÏ
+#define X 1
+#define PI 3.141592
+
+int main(void) {
+	double z;
+	z = X + PI;
+	printf("%f\n", z);
+	return 0;
+}
