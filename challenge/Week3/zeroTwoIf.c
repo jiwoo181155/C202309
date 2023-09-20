@@ -17,7 +17,7 @@ int main() {
 	else if (num == 2) {
 		printf("two");
 	}
-	//관계연산자를 사용하여 num 0,1,2 외에 다른 수면 not 0~ 2 를 출력
+	//관계연산자를 사용하여 num 0,1,2 외에 다른 수면 not 0 ~ 2 를 출력
 	else {
 		printf("not 0 ~ 2");
 	}
