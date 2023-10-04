@@ -8,11 +8,11 @@ void main()
 }
 
 //hapf함수시작=>int형 value값을 입력받는 함수
-int multiF(int value)
+long multiF(int value)
 {
 	//i와 multi 변수 초기화, 곱셈이기에 multi초기값을 1로 초기화
 	int i = 1;
-	int multi = 1;
+	long multi = 1;
 	//while반복문으로 i초기값 1부터 value값까지 반복되도록 반복문 설정
 	while (i <= value)
 	{

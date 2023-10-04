@@ -10,7 +10,7 @@ void main()
 int hapf(int value)
 {
 	//i와 hap 변수 초기화
-	int i=1;
+	int i = 1;
 	int hap = 0;
 	//while반복문으로 i초기값 1부터 value값까지 반복되도록 반복문 설정
 	while (i <= value)
