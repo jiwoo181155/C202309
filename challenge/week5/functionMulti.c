@@ -1,5 +1,5 @@
 #include <stdio.h>
-int multiF(int value);
+long multiF(int value);
 void main()
 {
 	printf("1부터 2까지의 곱은 %d\n", multiF(2));
