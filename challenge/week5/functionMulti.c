@@ -1,10 +1,11 @@
 #include <stdio.h>
 long multiF(int value);
-void main()
+int main()
 {
-	printf("1부터 2까지의 곱은 %d\n", multiF(2));
-	printf("1부터 3까지의 곱은 %d\n", multiF(3));
-	printf("1부터 5까지의 곱은 %d\n", multiF(5));
+	printf("1부터 2까지의 곱은 %ld\n", multiF(2));
+	printf("1부터 3까지의 곱은 %ld\n", multiF(3));
+	printf("1부터 5까지의 곱은 %ld\n", multiF(5));
+	return 0;
 }
 
 //hapf함수시작=>int형 value값을 입력받는 함수
