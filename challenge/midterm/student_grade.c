@@ -71,19 +71,13 @@ int main() {
 	printf("--------------------\n");
 	printf("학생 별 성적은 다음과 같습니다 \n");
 
-	// TODO 1.3: 학생 별 평균 점수를 출력하는 코드 블록 작성 >> 이후 함수화
-	// HINT1: 2중 for문: (1) 학생별 (2) 과목들의 점수 합과 평균을 구하고 출력
-	// HINT2: 출력문 코드 = printf("\t%s의 평균 점수: %.2lf\n", studentNames[i], finalScore);
-
+	//학생들의 평균점수를 구하는 함수 호출
 	printStudentResults(studentScores, studentNames);
 
 	printf("--------------------\n");
 	printf("과목 별 평균 점수는 아래와 같습니다. \n");
-	// TODO 1.4: 과목 별 평균 점수를 출력하는 코드 블록 작성 >> 이후 함수화
-	// HINT1: 2중 for문으로 (1) 과목별 (2) 학생들의 점수 합과 평균을 구하고 출력	
-	// HINT2: 출력문 코드 = printf("\t%s의 평균 점수는 %.2lf 입니다.\n", subjectNames[i], subjectScore);
-	//과목별 평균점수 출력하는 반복문
 
+	//과목별로 학생들 점수의 평균을 구하는 함수 호출
 	printSubjectResults(studentScores, subjectNames);
 
 	printf("프로그램을 종료합니다. ");
